@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title >Weather </title>
+    <link rel="stylesheet" href="C:\Users\gaddi\OneDrive\Desktop\My Own Projects\Weather\style.css" >
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   
+
+</head>
+<body>
+<div class = "weather">
+    <div class ="page">
+        <h5>GJWeather</h5>
+    </div>
+
+    <div class="search">
+        <input type="text" placeholder=" Enter City Name" style="color: palevioletred;">
+        <button><i class="fa fa-search" style="font-size:15px;color:palevioletred"></i></button><br><br>
+    </div>   
+
+    <div class="card">
+            <div class="data">
+                <img src="images/p1.jpg" class="W-icon">
+                <h1 class="temp">22°C</h1><br>
+                <h2 class="city">Dalla,USA</h2>
+            </div>
+        <div class="time">12:30 PM</div>
+    </div>
+ 
+    <div class="container">
+        <div class="left-box">
+            <div class="item"><i class="fa fa-tint" style="font-size:15px;color:palevioletred">Humidity:</i>
+                <p class="itemh" style="display: inline;" > 50%</p>
+                </div>
+            <div class="item"><i class="fa fa-sun-o" style="font-size:15px;color:palevioletred">sunrise</i>
+                <p class="itemsr" style="display: inline;" >9:00 Am</p>
+            </div>
+        </div>
+        <div class="right-box">
+            <div class="item"><i class="fa fa-sun-o" style="font-size:15px;color:palevioletred">sunset</i>
+                <p class="itemss" style="display: inline;" >5:00 Pm</p>
+            </div>
+            <div class="item"><i class="fa fa-bolt" style="font-size:15px;color:palevioletred">wind speed:</i>
+             <p class="itemi" style="display: inline;">9 m/h</p> 
+            </div>
+        </div>
+    </div>
+
+    <div class="rain">
+            <div class="Month">
+                <h4>wind chill:</h4>
+                <div class = "m">66°F</div>
+            </div>
+
+            <div class="year">
+                <h4>Weather:</h4>
+                <div class = "y">Mist</div>
+    
+        </div>
+    </div>
+
+   
+
+    <div class="week">
+        <canvas id="temperatureChart"></canvas>
+       <!-- <div class="today" id="current">
+            <div class="dayc">Today</div>
+            <div class="datec">2023-11-01</div>
+            <img src="https://openweathermap.org/img/wn/10d@2x.png" class="iconm">
+            <div class="ctempn">Min- 24</div>
+            <div class="ctempd">max-22</div>
+        </div>-->
+        <br><br>
+        <div class="all-days">
+            <div class="today" id="current">
+                <div class="dayc">Today</div>
+                <div class="datec">2023-11-01</div>
+                <img src="https://openweathermap.org/img/wn/10d@2x.png" class="iconm">
+                <div class="ctempn">Min- 24</div>
+                <div class="ctempd">max-22</div>
+            </div>
+            <div class="tues" id="Tues">
+                <div class="daytu">Tuesday</div>
+                <div class="datetu">2023-11-02</div>
+                <img src="https://openweathermap.org/img/wn/10d@2x.png" class="icont">
+                <div class="ttempn">Min- 24</div>
+                <div class="ttempd">max-22</div>
+            </div>
+
+            <div class="wed" id="wed">
+                <div class="dayw">wednesday</div>
+                <div class="datew">2023-11-02</div>
+                <img src="https://openweathermap.org/img/wn/10d@2x.png" class="iconw">
+                <div class="wtempn">Min- 24</div>
+                <div class="wtempd">max-22</div>
+            </div>
+
+            <div class="thu" id="Thu">
+                <div class="dayt">Thursday</div>
+                <div class="datet">2023-11-02</div>
+                <img src="https://openweathermap.org/img/wn/10d@2x.png" class="iconth">
+                <div class="thtempn">Min- 24</div>
+                <div class="thtempd">max-22</div>
+            </div>
+
+            <div class="fri" id="Fri">
+                <div class="dayf">Friday</div>
+                <div class="datef">2023-11-02</div>
+                <img src="https://openweathermap.org/img/wn/10d@2x.png" class="iconf">
+                <div class="ftempn">Min- 24</div>
+                <div class="ftempd">max-22</div>
+            </div>
+
+            <div class="sat" id="Sat">
+                <div class="days">Saturday</div>
+                <div class="dates">2023-11-02</div>
+                <img src="https://openweathermap.org/img/wn/10d@2x.png" class="icons">
+                <div class="stempn">Min- 24</div>
+                <div class="stempd">max-22</div>
+            </div>
+
+            <div class="sun" id="Sun">
+                <div class="daysu">Sunday</div>
+                <div class="datesu">2023-11-02</div>
+                <img src="https://openweathermap.org/img/wn/10d@2x.png" class="iconsu">
+                <div class="sutempn">Min- 24</div>
+                <div class="sutempd">max-22</div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    
+</div>
+
+<script src="srcipt.js"></script>
+<!--script src="https://cdn.jsdelivr.net/npm/chart.js"></script>-->
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+</body>
+
+</html>

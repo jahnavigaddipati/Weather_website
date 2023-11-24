@@ -1,0 +1,190 @@
+.page{
+    text-align: left;
+    font-size: 22.5px;
+    color:palevioletred;
+    
+}
+
+.search{
+    padding: 15px;
+    position: absolute;
+    top: 10px; 
+    right: 10px;
+    border: 1px solid palevioletred;
+    width: 150px;
+    height: 10px;
+
+}
+
+.search input[type="text"] {
+    top:5px;
+    border : None;
+    border-radius: 4px;
+    color: palevioletred;
+    width: 100px;
+    align-items: center;
+    margin-right: 10px; 
+}
+
+
+.card{
+width: 100%;
+    position: relative;
+    height: 200px;
+    background-image: url(images/p1.jpg);
+    border: 1px solid palevioletred;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+       
+    
+    
+}
+
+.data {
+    flex: 1;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    padding: 10px; /* Add padding as needed */
+    box-sizing: border-box;
+    color: white;
+    display: flex;
+}
+
+.data img
+  {
+    width:100px;
+    margin-right:10px ;
+  }
+
+h1 {
+    margin: 0;
+    font-size: 75px;
+
+}
+h2{
+    margin-left: 10px;
+    font-size: 15px;;
+}
+.W-icon
+  {
+  width: 170px;
+  margin-top: 30px;
+  }
+  
+
+  .time {
+    font-size: 50px;
+    margin: 0;
+    color: whitesmoke;
+
+}
+
+.container {
+    display: flex;
+    width: 30%;
+    background-color: white;
+    color: palevioletred;
+    padding: 25px;
+    margin-top: 2%;
+    border-radius: 15px;
+    box-sizing: border-box;
+    border: 1px solid palevioletred;
+}
+
+
+.item {
+    margin: 0;
+    padding: 5px;
+}
+
+
+.left-box {
+    border-right: 1px solid palevioletred;
+}
+
+.right-box {
+    display: flex;
+    flex-direction: column;
+    /*align-items: flex-end;*/
+}
+
+.rain {
+    display: flex;
+    background-color: palevioletred;
+    width:30%;
+    color: white;
+    padding: 20px;
+    margin-top: 2%;
+    border-radius: 50px;
+    box-sizing: border-box;
+    border: 1px solid white;
+}
+
+.Month{
+    border-right: 1px solid white;
+    flex: 1;
+    padding-right: 20px;
+}
+
+.year {
+    flex: 1;
+    padding-left: 5px;
+}
+
+
+
+
+.week{
+    display : flex;
+    border: 1px solid palevioletred;
+    background-color: snow;
+    align-items: flex-end;
+    height: 300px;
+    width:fit-content;
+    margin-left:400px;
+    margin-top:-250px;
+   
+   
+
+   /* align-items: center;*/
+}
+.all-days {
+    display: flex;
+    flex-direction: row;
+    font-weight: bold;
+    width:fit-content;
+    font-size: 15px;
+    margin: 5px 0;
+    color: palevioletred;
+    padding: 15px;
+    
+   
+}
+.iconm,.icont,.iconw,.iconth,.iconf,.icons,.iconsu
+  {
+  width: 80px;
+  margin-top: 30px;
+  }
+
+
+.tues,.wed,.thu,.fri,.sat,.today{
+    border-right: 1px solid palevioletred;  
+    padding-left: 5px;
+    width:fit-content;
+    padding-right: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+  
